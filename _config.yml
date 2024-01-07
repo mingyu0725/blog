@@ -1,8 +1,8 @@
-title: Hamilton
-description: A minimal and beautiful Jekyll theme best for writing and note-taking.
-author: Shangzhi Huang
+title: 김민규의 기술블로그
+description: 김민규의 블로그
+author: mingyu kim
 avatar: /logo.png
-email: ngzhio@gmail.com
+email: mingyukim0725@gmail.com
 
 plugins:
   - jekyll-seo-tag
