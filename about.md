@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-기술 블로그
+제 이름은 김민규이고,
+나이는 14살 입니다.
