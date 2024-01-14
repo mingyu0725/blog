@@ -1,0 +1,18 @@
+---
+layout: post
+---
+버튼을 사용할땐 버튼을 불러오기 위해 아래의 코드를 사용한다.
+```java
+Button button1 ;
+```
+그런다음 밑에서 한번더 아래의 코드를 써야한다.
+```java
+button = findViewById(R.id.button);
+```
+
+버튼의 디자인을 자신이 하고 싶은 디자인으로 하고 싶을땐
+버튼을 이미지를 가지고 온후에
+버튼의 스타일을 아래의 스타일로 바꿔야 한다.
+```java
+@android:style/Widget.Holo.Light.Button.Borderless.Small
+```
