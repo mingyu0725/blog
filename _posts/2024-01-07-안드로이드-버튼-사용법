@@ -16,3 +16,37 @@ button = findViewById(R.id.button);
 ```java
 @android:style/Widget.Holo.Light.Button.Borderless.Small
 ```
+
+버튼을 눌렀을때 이벤트가 일어나게 하려면
+```java
+button1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+             
+            }
+        });
+```
+
+버튼을 눌렀을때 화면이 바뀌게 하려면은
+```java
+button1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+             Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
+                startActivity(intent);
+                
+            }
+        });
+```
+추가로 변수도 다른 화면에 옮기고 싶다면
+```java
+button1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+             Intent intent = new Intent(getApplicationContext(), MainActivity2.class);
+                startActivity(intent);
+                intent.putExtra("sum",sum);
+                startActivity(intent);
+            }
+        });
+```
